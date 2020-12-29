@@ -11,6 +11,4 @@ pool:
    demands: Agent.Name -equals mydockeragent
 
 steps:
-- script: echo $MYSECRET
-  env:
-    MYSECRET: $(Foo)
+- script: echo hostname
