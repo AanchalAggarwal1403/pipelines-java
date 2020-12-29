@@ -11,4 +11,4 @@ pool:
    demands: Agent.Name -equals mydockeragent
 
 steps:
-- script: echo hostname
+- script: hostname
